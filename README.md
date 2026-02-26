@@ -17,6 +17,8 @@ In this lab we learned how to implement a full adder and built a two-bit adder b
 ## Lab Questions
 
 ### 1 - How might you add more than two bits together?
+To add more than two bits together, we could use more full bit adders with 
+using the carry out from the most significant bit to generate addition with larger numbers.
 
 ### 2 - What is the importance of the XOR gate in an adder?
 Because if both inputs are 1, the sum should be 0 because that is then carried to the next most significant bit.
